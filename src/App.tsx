@@ -72,7 +72,6 @@ function App() {
               <Wand2 className="w-8 h-8 text-white" />
             </div>
           </div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
           <h1 className="text-4xl font-bold text-white mb-4">
             AI Prompt Enhancer
           </h1>
@@ -129,7 +128,6 @@ function App() {
 
               {/* Output Section */}
               {(enhancedPrompt || isEnhancing) && (
-                <div className="border-t border-gray-100 pt-8">
                 <div className="border-t border-gray-700 pt-8">
                   <div className="flex items-center justify-between mb-3">
                     <label className="block text-lg font-semibold text-white">
