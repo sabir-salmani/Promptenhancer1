@@ -44,7 +44,7 @@ function App() {
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0" style={{
           backgroundImage: `
-            linear-gradient(rgba(34, 197, 94, 0.3) 1px, transparent 1px),
+            linear-gradient(rgba(41, 234, 112, 0.3) 1px, transparent 1px),
             linear-gradient(90deg, rgba(34, 197, 94, 0.3) 1px, transparent 1px)
           `,
           backgroundSize: '50px 50px',
@@ -56,7 +56,7 @@ function App() {
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
           backgroundImage: `
-            linear-gradient(rgba(34, 197, 94, 0.5) 1px, transparent 1px),
+            linear-gradient(rgba(153, 255, 191, 0.5) 1px, transparent 1px),
             linear-gradient(90deg, rgba(34, 197, 94, 0.5) 1px, transparent 1px)
           `,
           backgroundSize: '100px 100px',
@@ -69,11 +69,12 @@ function App() {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center mb-4">
             <div className="bg-gradient-to-r from-green-500 to-emerald-600 p-3 rounded-xl shadow-lg shadow-green-500/25">
-              <Wand2 className="w-8 h-8 text-white" />
+              {/*<Wand2 className="w-8 h-8 text-white" />*/}
+              <img src="https://aiwebsite1.s3.us-east-1.amazonaws.com/logo-1.png" alt="Qyuki AI Logo" className="w-8 h-8" />
             </div>
           </div>
           <h1 className="text-4xl font-bold text-white mb-4">
-            AI Prompt Enhancer
+            Qyuki AI Prompt Enhancer
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Transform your simple prompts into detailed, professional descriptions optimized for stunning AI image generation
